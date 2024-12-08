@@ -1,0 +1,106 @@
+
+/* Arissa Kohata (4711950)*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Definições de links*/
+a{
+    text-decoration: none;
+    color: rgb(0, 63, 26);
+    padding: 2px 20px;
+}
+
+/* Definições de mouse sobre link*/
+.nav a:hover{
+    color: aliceblue;
+}
+
+/* Definições do corpo de texto*/
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    color: rgb(123, 144, 161);
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+/* Definições do cabeçalho */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(83, 184, 150);
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+    border: solid 1px;
+    border-color: (srgb rgb(18, 117, 56));
+}
+
+section{
+    min-height: 100vh;
+    padding: 6rem 6rem 2rem;
+    border: solid 1px;
+    border-color: (srgb rgb(18, 117, 56));
+}
+
+/* Estilizar o "sobre mim" - Dvividi para conseguir alinhar com a imagem */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.homeimage img{
+    width: 100%;
+    padding-left: 2em;
+}
+
+/* Estilizar o "formacao academica" */
+.formacao{
+    padding: 1rem 2rem 1rem;
+    border-radius: 1.2rem;
+    border: solid 1px; 
+    border-color: (srgb rgb(18, 117, 56));
+    margin: 1.0rem 0;
+}
+
+/* Estilizar o "portfolio" */
+.portfolio-container{
+    gap: 2.0rem;
+    margin: 2.0rem 0;
+}
+
+.portfolio-box{
+    box-shadow: 0 0 0.6rem;
+    display: flex;
+    padding: 2rem 2rem 2rem;
+    gap: 2.0rem;
+}
+
+.portfolio-box img{
+    box-shadow: 0 0 0.6rem;
+    width: 15%
+}
+
+/* Estilizar o "contato" */
+.contato {
+    margin: 2.0rem auto;
+    text-align: center;
+}
+
+form input{
+    background-color: rgb(44, 44, 48);
+}
+
+form textarea{
+    width: 100%;
+    margin: 1.0rem auto;
+    text-align: center;
+    background-color: rgb(44, 44, 48);
+}
